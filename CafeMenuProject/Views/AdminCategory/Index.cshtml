@@ -8,13 +8,20 @@
     <table class="table table-bordered">
         <br />
         <h3>Kategori Listesi</h3>
+<<<<<<< HEAD
         <td> <a class="btn btn-success btn-sm " href="/AdminCategory/CategoryAdd">Yeni Kategori Ekle</a></td>
+=======
+>>>>>>> c8fb2d274e66a812df4a3958b1ba61b947d09054
         <tr>
             <th>#</th>
             <th>Kategori</th>
             <th>Oluşturulma Tarihi</th>
             <th>Sil</th>
             <th>Düzenle</th>
+<<<<<<< HEAD
+=======
+            <th>Başlıklar</th>
+>>>>>>> c8fb2d274e66a812df4a3958b1ba61b947d09054
 
         </tr>
         @foreach (var item in Model)
@@ -28,11 +35,19 @@
                     <a href="@Url.Action("Delete", "AdminCategory", new { id = @item.CategoryId })" id="delet" class="btn btn-danger btn-sm">Sil</a>
                     @*<a class="btn btn-danger btn-sm" href="/AdminCategory/Delete/@item.Id">Sil</a>*@
                 </td>
+<<<<<<< HEAD
 
             </tr>
         }
     </table>
    
+=======
+                <td><a class="btn btn-success btn-sm" href="#başliklar">Başlıklar</a></td>
+            </tr>
+        }
+    </table>
+    <a class="btn btn-primary btn-sm " href="/AdminCategory/CategoryAdd">Yeni kategori</a>
+>>>>>>> c8fb2d274e66a812df4a3958b1ba61b947d09054
 </div>
 
 <script type="text/javascript">$('#delet').on('click', function (e) {

@@ -138,10 +138,13 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\AdminCategoryController.cs" />
+<<<<<<< HEAD
     <Compile Include="Controllers\AdminProductController.cs" />
     <Compile Include="Controllers\AdminProductPropertyController.cs" />
     <Compile Include="Controllers\AdminPropertyController.cs" />
     <Compile Include="Controllers\AdminUserController.cs" />
+=======
+>>>>>>> c8fb2d274e66a812df4a3958b1ba61b947d09054
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -2556,16 +2559,22 @@
     <Content Include="Views\Shared\_AdminLayout.cshtml" />
     <Content Include="Views\AdminCategory\CategoryAdd.cshtml" />
     <Content Include="Views\AdminCategory\Update.cshtml" />
+<<<<<<< HEAD
     <Content Include="Views\AdminProduct\Index.cshtml" />
     <Content Include="Views\AdminProduct\ProductAdd.cshtml" />
+=======
+>>>>>>> c8fb2d274e66a812df4a3958b1ba61b947d09054
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
+<<<<<<< HEAD
     <Folder Include="Views\AdminProductProperty\" />
     <Folder Include="Views\AdminProperty\" />
     <Folder Include="Views\AdminUser\" />
     <Folder Include="Views\Product\" />
+=======
+>>>>>>> c8fb2d274e66a812df4a3958b1ba61b947d09054
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.rtl.min.css.map" />

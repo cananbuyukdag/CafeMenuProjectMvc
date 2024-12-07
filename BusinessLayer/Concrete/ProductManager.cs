@@ -10,7 +10,11 @@ using System.Threading.Tasks;
 
 namespace BusinessLayer.Concrete
 {
+<<<<<<< HEAD
     public class ProductManager : IProductService
+=======
+    internal class ProductManager : IProductService
+>>>>>>> c8fb2d274e66a812df4a3958b1ba61b947d09054
     {
         IProductDal _productDal;
 
@@ -18,8 +22,11 @@ namespace BusinessLayer.Concrete
         {
             _productDal = productDal;
         }
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> c8fb2d274e66a812df4a3958b1ba61b947d09054
         public void Delete(Product entity)
         {
             _productDal.Delete(entity);

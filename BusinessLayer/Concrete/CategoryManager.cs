@@ -12,7 +12,6 @@ namespace BusinessLayer.Concrete
 {
     public class CategoryManager:ICategoryService
     {
-        ICategoryDal _propertyDal;
 
         public CategoryManager(ICategoryDal categoryDal)
         {
